@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+}
+
+/* ------------------HEADINGS------------------ */
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+p {
+    color: #8cabba;
+}
+
+/* -------------------ID's---------------- */
+
+#title,
+#features,
+#testimonials,
+#press,
+#cta {
+    background-color: #f45d5d;
+
+}
+
+#testimonials,
+#cta {
+    color: #fff;
+}
+
+#features {
+
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+#cta button,
+h3 {
+    margin: 2% 1% 2%;
+}
+
+#footer {
+
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+#title .container-fluid {
+    padding: 0 15% 5%;
+}
+
+/* -------------------CLASSES----------------- */
+
+.container-fluid {
+    padding: 4% 15% 5%;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-size: 3.0rem;
+    font-family: monospace;
+}
+
+.iphone6 {
+
+    transform: rotate(26deg);
+    width: 350px;
+    z-index: 0;
+    position: absolute;
+    right: 13%;
+}
+
+.navbar-nav li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    opacity: 50%;
+    margin: 0 15px 0 15px;
+}
+
+.feature-box {
+    font-size: 1.4rem;
+}
+
+.icon {
+    color: #ef805f;
+    margin-bottom: 50px;
+}
+
+.icon:hover {
+    color: #f45d5d;
+    transition: all .4s ease;
+}
+
+/* #testimonials Section */
+
+.testimonial-image {
+    border-radius: 100%;
+}
+
+.testimonial-image,
+.press-logo {
+    width: 13%;
+    margin: 3% 2% 3%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.footer-icons {
+    margin: 3% 2% 3%;
+}
+
+/* --------------------@MEDIA-------------------- */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone6 {
+        position: static;
+        transform: rotate(0);
+        margin-top: 30px;
+    }
+}
